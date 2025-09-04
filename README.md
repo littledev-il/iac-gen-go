@@ -43,6 +43,31 @@ npm install
 
 ## Configuration
 
+### MCP Server Setup (for Claude Code)
+
+The project includes an MCP server configuration for SSH access to the jump box. Copy the MCP configuration to your Claude settings:
+
+```json
+{
+  "mcpServers": {
+    "iac-gen-ssh": {
+      "command": "npx",
+      "args": [
+        "ssh-mcp",
+        "-y",
+        "--",
+        "--host=52.91.237.136",
+        "--user=jumpuser",
+        "--password=JumpServer123!",
+        "--port=22"
+      ]
+    }
+  }
+}
+```
+
+### Application Configuration
+
 Create a `iac-gen-config.json` file in your project root:
 
 ```json
