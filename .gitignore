@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.gen/
+cdktf.out/
+terraform.tfstate*
+.terraform/
+
+# SSH keys
+*.pem
+*.key
+
+# Test coverage
+coverage/
