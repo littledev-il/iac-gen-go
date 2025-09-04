@@ -1,6 +1,7 @@
 {
   "mcpServers": {
     "iac-gen-ssh": {
+      "type": "stdio",
       "command": "npx",
       "args": [
         "ssh-mcp",
@@ -10,7 +11,8 @@
         "--user=jumpuser",
         "--password=JumpServer123!",
         "--port=22"
-      ]
+      ],
+      "env": {}
     }
   }
 }

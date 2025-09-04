@@ -1,0 +1,6 @@
+{
+  "enabledMcpjsonServers": [
+    "iac-gen-ssh"
+  ],
+  "enableAllProjectMcpServers": true
+}
